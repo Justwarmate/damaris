@@ -31,9 +31,8 @@ def primes(a, b):
 
 
 prime_list = primes(1, 50)
-dan=primes(1, 20)
-q = random.choice(dan)
-p = random.choice(dan)
+q = random.choice(prime_list)
+p = random.choice(prime_list)
 e = random.choice(prime_list)
 N = p*q
 n = (q-1) * (p-1)
